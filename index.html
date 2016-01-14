@@ -1,937 +1,639 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>wiki</title>
-
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
-    <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
-    <script src="js/master.js" charset="utf-8"></script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="navigation-bar-wiki">
-        <ul class="nav nav-pills">
-          <li role="presentation" class="active"><a href="#">Kate Hall &amp; Tim Durward</a></li>
-          <li role="presentation"><a href="#">Epicodus</a></li>
-          <li role="presentation"><a href="#">Treehouse</a></li>
-        </ul>
-      </div>
-
-
-        <div class="main-head">
-          <h2>Web Development Tools</h2>
-          <p>
-            Here is a list of the tools we have been working with so far:
-          </p>
-        </div>
-        <!-- Accordion Template -->
-        <!-- **************************************** -->
-        <!-- HTML -->
-    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          HTML
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-        <p>HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. Along with CSS, and JavaScript, HTML is a cornerstone technology, used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.[1] Web browsers can read HTML files and render them into visible or audible web pages. HTML describes the structure of a website semantically along with cues for presentation, making it a markup language, rather than a programming language.</p>
-
-        <!-- BUTTON FOR MODAL -->
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-          Launch demo modal
-        </button>
-
-        <!-- Modal for HTML-->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">HTML: Elements</h4>
-              </div>
-              <div class="modal-body" id="html-modal">
-                <div class="container">
-
-
-                <div class="row">
-
-
-                  <div class="col-md-6">
-                    <div class="show-code">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                      <br>
-                      <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                      <br>
-                      <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                      <br>
-                      <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                      <br>
-                      <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                    </div>
-                    <div class="show-preview">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <h1>Heading</h1>
-                      <br>
-                      <p>Paragraph</p>
-                      <br>
-                      <ul>
-                        <li>Unordered List</li>
-                      </ul>
-                      <ol>
-                        <li>Ordered List</li>
-                      </ol>
-                    </div>
-                  </div>
-
-                  <!-- INLINE BLOCK ELEMENTS TO BE EDITED -->
-                  <div class="col-md-6">
-                 <div class="show-code">
-                        <h2>Block Elements</h2>
-                        <p>These are the most common Block Elements</p>
-                        <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                        <br>
-                        <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                        <br>
-                        <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                        <br>
-                        <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                        <br>
-                        <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                      </div>
-                      <div class="show-preview">
-                        <h2>Block Elements</h2>
-                        <p>These are the most common Block Elements</p>
-                        <h1>Heading</h1>
-                        <br>
-                        <p>Paragraph</p>
-                        <br>
-                        <ul>
-                          <li>Unordered List</li>
-                        </ul>
-                        <ol>
-                          <li>Ordered List</li>
-                        </ol>
-                      </div>
-                  </div>
-
-                  <!-- DIVS AND SPANS -->
-
-                </div>
-                <hr>
-
-                <div class="row">
-
-                  <div class="col-md-6">
-                    <div class="show-code">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                      <br>
-                      <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                      <br>
-                      <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                      <br>
-                      <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                      <br>
-                      <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                    </div>
-                    <div class="show-preview">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <h1>Heading</h1>
-                      <br>
-                      <p>Paragraph</p>
-                      <br>
-                      <ul>
-                        <li>Unordered List</li>
-                      </ul>
-                      <ol>
-                        <li>Ordered List</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="show-code">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                      <br>
-                      <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                      <br>
-                      <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                      <br>
-                      <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                      <br>
-                      <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                    </div>
-                    <div class="show-preview">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <h1>Heading</h1>
-                      <br>
-                      <p>Paragraph</p>
-                      <br>
-                      <ul>
-                        <li>Unordered List</li>
-                      </ul>
-                      <ol>
-                        <li>Ordered List</li>
-                      </ol>
-                    </div>
-                  </div>
-
-                </div>
-                  </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default pull-left">Preview</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-        <!-- **************************************** -->
-          <!-- **************************************** -->
-<!-- CSS -->
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          CSS
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        <br>
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalCSS">
-          Launch demo modal
-        </button>
-
-        <!-- Modal for CSS-->
-        <div class="modal fade" id="myModalCSS" tabindex="-1" role="dialog" aria-labelledby="myModalLabelCSS">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabelCSS">HTML: Elements</h4>
-              </div>
-              <div class="modal-body" id="css-modal">
-                <div class="container">
-
-
-                <div class="row">
-
-
-                  <div class="col-md-6">
-                    <div class="show-code">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                      <br>
-                      <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                      <br>
-                      <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                      <br>
-                      <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                      <br>
-                      <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                    </div>
-                    <div class="show-preview">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <h1>Heading</h1>
-                      <br>
-                      <p>Paragraph</p>
-                      <br>
-                      <ul>
-                        <li>Unordered List</li>
-                      </ul>
-                      <ol>
-                        <li>Ordered List</li>
-                      </ol>
-                    </div>
-                  </div>
-
-                  <!-- INLINE BLOCK ELEMENTS TO BE EDITED -->
-                  <div class="col-md-6">
-                 <div class="show-code">
-                        <h2>Block Elements</h2>
-                        <p>These are the most common Block Elements</p>
-                        <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                        <br>
-                        <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                        <br>
-                        <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                        <br>
-                        <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                        <br>
-                        <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                      </div>
-                      <div class="show-preview">
-                        <h2>Block Elements</h2>
-                        <p>These are the most common Block Elements</p>
-                        <h1>Heading</h1>
-                        <br>
-                        <p>Paragraph</p>
-                        <br>
-                        <ul>
-                          <li>Unordered List</li>
-                        </ul>
-                        <ol>
-                          <li>Ordered List</li>
-                        </ol>
-                      </div>
-                  </div>
-
-                  <!-- DIVS AND SPANS -->
-
-                </div>
-                <hr>
-
-                <div class="row">
-
-                  <div class="col-md-6">
-                    <div class="show-code">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                      <br>
-                      <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                      <br>
-                      <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                      <br>
-                      <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                      <br>
-                      <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                    </div>
-                    <div class="show-preview">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <h1>Heading</h1>
-                      <br>
-                      <p>Paragraph</p>
-                      <br>
-                      <ul>
-                        <li>Unordered List</li>
-                      </ul>
-                      <ol>
-                        <li>Ordered List</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="show-code">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                      <br>
-                      <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                      <br>
-                      <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                      <br>
-                      <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                      <br>
-                      <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                    </div>
-                    <div class="show-preview">
-                      <h2>Block Elements</h2>
-                      <p>These are the most common Block Elements</p>
-                      <h1>Heading</h1>
-                      <br>
-                      <p>Paragraph</p>
-                      <br>
-                      <ul>
-                        <li>Unordered List</li>
-                      </ul>
-                      <ol>
-                        <li>Ordered List</li>
-                      </ol>
-                    </div>
-                  </div>
-
-                </div>
-                  </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default pull-left">Preview</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Javascript -->
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingThree">
-        <h4 class="panel-title">
-          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Javascript
-          </a>
-        </h4>
-      </div>
-      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-        <div class="panel-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-          <br>
-          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalJS">
-            Launch demo modal
-          </button>
-
-          <!-- Modal for Javascript-->
-          <div class="modal fade" id="myModalJS" tabindex="-1" role="dialog" aria-labelledby="myModalLabelJS">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title" id="myModalLabelJS">HTML: Elements</h4>
-                </div>
-                <div class="modal-body" id="JS-modal">
-                  <div class="container">
-
-
-                  <div class="row">
-
-
-                    <div class="col-md-6">
-                      <div class="show-code">
-                        <h2>Block Elements</h2>
-                        <p>These are the most common Block Elements</p>
-                        <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                        <br>
-                        <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                        <br>
-                        <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                        <br>
-                        <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                        <br>
-                        <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                      </div>
-                      <div class="show-preview">
-                        <h2>Block Elements</h2>
-                        <p>These are the most common Block Elements</p>
-                        <h1>Heading</h1>
-                        <br>
-                        <p>Paragraph</p>
-                        <br>
-                        <ul>
-                          <li>Unordered List</li>
-                        </ul>
-                        <ol>
-                          <li>Ordered List</li>
-                        </ol>
-                      </div>
-                    </div>
-
-                    <!-- INLINE BLOCK ELEMENTS TO BE EDITED -->
-                    <div class="col-md-6">
-                   <div class="show-code">
-                          <h2>Block Elements</h2>
-                          <p>These are the most common Block Elements</p>
-                          <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                          <br>
-                          <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                          <br>
-                          <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                          <br>
-                          <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                          <br>
-                          <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                        </div>
-                        <div class="show-preview">
-                          <h2>Block Elements</h2>
-                          <p>These are the most common Block Elements</p>
-                          <h1>Heading</h1>
-                          <br>
-                          <p>Paragraph</p>
-                          <br>
-                          <ul>
-                            <li>Unordered List</li>
-                          </ul>
-                          <ol>
-                            <li>Ordered List</li>
-                          </ol>
-                        </div>
-                    </div>
-
-                    <!-- DIVS AND SPANS -->
-
-                  </div>
-                  <hr>
-
-                  <div class="row">
-
-                    <div class="col-md-6">
-                      <div class="show-code">
-                        <h2>Block Elements</h2>
-                        <p>These are the most common Block Elements</p>
-                        <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                        <br>
-                        <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                        <br>
-                        <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                        <br>
-                        <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                        <br>
-                        <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                      </div>
-                      <div class="show-preview">
-                        <h2>Block Elements</h2>
-                        <p>These are the most common Block Elements</p>
-                        <h1>Heading</h1>
-                        <br>
-                        <p>Paragraph</p>
-                        <br>
-                        <ul>
-                          <li>Unordered List</li>
-                        </ul>
-                        <ol>
-                          <li>Ordered List</li>
-                        </ol>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="show-code">
-                        <h2>Block Elements</h2>
-                        <p>These are the most common Block Elements</p>
-                        <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                        <br>
-                        <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                        <br>
-                        <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                        <br>
-                        <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                        <br>
-                        <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                      </div>
-                      <div class="show-preview">
-                        <h2>Block Elements</h2>
-                        <p>These are the most common Block Elements</p>
-                        <h1>Heading</h1>
-                        <br>
-                        <p>Paragraph</p>
-                        <br>
-                        <ul>
-                          <li>Unordered List</li>
-                        </ul>
-                        <ol>
-                          <li>Ordered List</li>
-                        </ol>
-                      </div>
-                    </div>
-
-                  </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default pull-left">Preview</button>
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Bootstrap -->
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFour">
-          <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Bootstrap
-            </a>
-          </h4>
-        </div>
-        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-          <div class="panel-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            <br>
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalBoostrap">
-              Launch demo modal
-            </button>
-
-            <!-- Modal for Boostrap-->
-            <div class="modal fade" id="myModalBoostrap" tabindex="-1" role="dialog" aria-labelledby="myModalLabelBoostrap">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabelBoostrap">HTML: Elements</h4>
-                  </div>
-                  <div class="modal-body" id="Boostrap-modal">
-                    <div class="container">
-
-
-                    <div class="row">
-
-
-                      <div class="col-md-6">
-                        <div class="show-code">
-                          <h2>Block Elements</h2>
-                          <p>These are the most common Block Elements</p>
-                          <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                          <br>
-                          <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                          <br>
-                          <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                          <br>
-                          <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                          <br>
-                          <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                        </div>
-                        <div class="show-preview">
-                          <h2>Block Elements</h2>
-                          <p>These are the most common Block Elements</p>
-                          <h1>Heading</h1>
-                          <br>
-                          <p>Paragraph</p>
-                          <br>
-                          <ul>
-                            <li>Unordered List</li>
-                          </ul>
-                          <ol>
-                            <li>Ordered List</li>
-                          </ol>
-                        </div>
-                      </div>
-
-                      <!-- INLINE BLOCK ELEMENTS TO BE EDITED -->
-                      <div class="col-md-6">
-                     <div class="show-code">
-                            <h2>Block Elements</h2>
-                            <p>These are the most common Block Elements</p>
-                            <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                            <br>
-                            <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                            <br>
-                            <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                            <br>
-                            <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                            <br>
-                            <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                          </div>
-                          <div class="show-preview">
-                            <h2>Block Elements</h2>
-                            <p>These are the most common Block Elements</p>
-                            <h1>Heading</h1>
-                            <br>
-                            <p>Paragraph</p>
-                            <br>
+<head>
+	<meta charset="utf-8">
+	<title>wiki</title>
+	<link charset="utf-8" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" rel="stylesheet" title="no title">
+	<link charset="utf-8" href="css/master.css" media="screen" rel="stylesheet" title="no title">
+	<script charset="utf-8" src="bower_components/jquery/dist/jquery.min.js">
+	</script>
+	<script charset="utf-8" src="bower_components/bootstrap/dist/js/bootstrap.min.js">
+	</script>
+	<script charset="utf-8" src="js/master.js">
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="navigation-bar-wiki">
+			<ul class="nav nav-pills">
+				<li class="active" role="presentation">
+					<a href="#">Kate Hall &amp; Tim Durward</a>
+				</li>
+				<li role="presentation">
+					<a href="#">Epicodus</a>
+				</li>
+				<li role="presentation">
+					<a href="#">Treehouse</a>
+				</li>
+			</ul>
+		</div>
+		<div class="main-head">
+			<h2>Web Development Tools</h2>
+			<p>Here is a list of the tools we have been working with so far:</p>
+		</div><!-- Accordion Template -->
+		<!-- **************************************** -->
+		<!-- HTML -->
+		<div aria-multiselectable="true" class="panel-group" id="accordion" role="tablist">
+			<div class="panel panel-default">
+				<div class="panel-heading" id="headingOne" role="tab">
+					<h4 class="panel-title"><a aria-controls="collapseOne" aria-expanded="false" data-parent="#accordion" data-toggle="collapse" href="#collapseOne" role="button">HTML</a></h4>
+				</div>
+				<div aria-labelledby="headingOne" class="panel-collapse collapse" id="collapseOne" role="tabpanel">
+					<div class="panel-body">
+						<p>HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. Along with CSS, and JavaScript, HTML is a cornerstone technology, used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.[1] Web browsers can read HTML files and render them into visible or audible web pages. HTML describes the structure of a website semantically along with cues for presentation, making it a markup language, rather than a programming language.</p><!-- BUTTON FOR MODAL -->
+						 <button class="btn btn-primary btn-lg" data-target="#myModal" data-toggle="modal" type="button">Launch demo modal</button> <!-- Modal for HTML-->
+						<div aria-labelledby="myModalLabel" class="modal fade" id="myModal" role="dialog" tabindex="-1">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabel">HTML: Elements</h4>
+									</div>
+									<div class="modal-body" id="html-modal">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div><!-- INLINE BLOCK ELEMENTS TO BE EDITED -->
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Inline-Elements</h2>
+														<p>These are the most common Block Elements</p>
+                            <code>&lt;div&gt;&lt;img src="img/cats.jpg"&gt;&lt;/div&gt;</code><br>
+														<code>&lt;h2&gt; element &lt;span&gt; In &lt;/span&gt; h2 &lt;/h2&gt;</code><br>
+													</div>
+													<div class="show-preview">
+														<h2>Inline-Elements</h2>
+														<p>These are the most common Inline Elements</p>
+														<h2>Span<span id="inline-span-html"> In </span>H2</h2>
+														<img id="inline-image-html" src="img/cat.jpg" alt="" />
+													</div>
+												</div><!-- DIVS AND SPANS -->
+											</div>
+											<!-- <hr> -->
+											<div class="row">
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Divs &amp; Spans</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Divs &amp; Spans</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Markdown</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Markdown</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button class="btn btn-default pull-left" type="button">Preview</button> <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- **************************************** -->
+			<!-- **************************************** -->
+			<!-- CSS -->
+			<div class="panel panel-default">
+				<div class="panel-heading" id="headingTwo" role="tab">
+					<h4 class="panel-title"><a aria-controls="collapseTwo" aria-expanded="false" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo" role="button">CSS</a></h4>
+				</div>
+				<div aria-labelledby="headingTwo" class="panel-collapse collapse" id="collapseTwo" role="tabpanel">
+					<div class="panel-body">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<br>
+						<button class="btn btn-primary btn-lg" data-target="#myModalCSS" data-toggle="modal" type="button">Launch demo modal</button> <!-- Modal for CSS-->
+						<div aria-labelledby="myModalLabelCSS" class="modal fade" id="myModalCSS" role="dialog" tabindex="-1">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabelCSS">CSS: Cascading Stylesheet</h4>
+									</div>
+									<div class="modal-body" id="css-modal">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Cascading</h2>
+														<p>Formats for HTML Presentation</p>
                             <ul>
-                              <li>Unordered List</li>
+                              <li>Fonts</li>
+                              <li>Backgrounds</li>
+                              <li>colors</li>
+                              <li>Sizes/Measurements</li>
+                              <li>Borders</li>
+                              <li>Font Styles</li>
                             </ul>
-                            <ol>
-                              <li>Ordered List</li>
-                            </ol>
-                          </div>
-                      </div>
-
-                      <!-- DIVS AND SPANS -->
-
-                    </div>
-                    <hr>
-
-                    <div class="row">
-
-                      <div class="col-md-6">
-                        <div class="show-code">
-                          <h2>Block Elements</h2>
-                          <p>These are the most common Block Elements</p>
-                          <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                          <br>
-                          <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                          <br>
-                          <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                          <br>
-                          <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                          <br>
-                          <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                        </div>
-                        <div class="show-preview">
-                          <h2>Block Elements</h2>
-                          <p>These are the most common Block Elements</p>
-                          <h1>Heading</h1>
-                          <br>
-                          <p>Paragraph</p>
-                          <br>
-                          <ul>
-                            <li>Unordered List</li>
-                          </ul>
-                          <ol>
-                            <li>Ordered List</li>
-                          </ol>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="show-code">
-                          <h2>Block Elements</h2>
-                          <p>These are the most common Block Elements</p>
-                          <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                          <br>
-                          <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                          <br>
-                          <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                          <br>
-                          <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                          <br>
-                          <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                        </div>
-                        <div class="show-preview">
-                          <h2>Block Elements</h2>
-                          <p>These are the most common Block Elements</p>
-                          <h1>Heading</h1>
-                          <br>
-                          <p>Paragraph</p>
-                          <br>
-                          <ul>
-                            <li>Unordered List</li>
-                          </ul>
-                          <ol>
-                            <li>Ordered List</li>
-                          </ol>
-                        </div>
-                      </div>
-
-                    </div>
-                      </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left">Preview</button>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--Jqury  -->
-
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="headingFive">
-            <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                Jquery
-              </a>
-            </h4>
-          </div>
-          <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-            <div class="panel-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              <br>
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalJQ">
-                Launch demo modal
-              </button>
-
-              <!-- Modal for JQ-->
-              <div class="modal fade" id="myModalJQ" tabindex="-1" role="dialog" aria-labelledby="myModalLabelJQ">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabelJQ">HTML: Elements</h4>
-                    </div>
-                    <div class="modal-body" id="JQ-modal">
-                      <div class="container">
-
-
-                      <div class="row">
-
-
-                        <div class="col-md-6">
-                          <div class="show-code">
-                            <h2>Block Elements</h2>
-                            <p>These are the most common Block Elements</p>
-                            <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                            <br>
-                            <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                            <br>
-                            <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                            <br>
-                            <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                            <br>
-                            <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                          </div>
-                          <div class="show-preview">
-                            <h2>Block Elements</h2>
-                            <p>These are the most common Block Elements</p>
-                            <h1>Heading</h1>
-                            <br>
-                            <p>Paragraph</p>
-                            <br>
+													</div>
+													<div class="show-preview">
+                            <h2>Cascading</h2>
+														<p>Formats for HTML Presentation</p>
                             <ul>
-                              <li>Unordered List</li>
+                              <li>Fonts</li>
+                              <li>Backgrounds</li>
+                              <li>colors</li>
+                              <li>Sizes/Measurements</li>
+                              <li>Borders</li>
+                              <li>Font Styles</li>
                             </ul>
-                            <ol>
-                              <li>Ordered List</li>
-                            </ol>
-                          </div>
-                        </div>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Box Model</h2>
+                            <p>Formats for HTML Presentation</p>
+														<img src="img/box-model.png" class="box-model-img" alt="" />
+													</div>
+													<div class="show-preview">
+														<h2>Box Model</h2>
+                            <p>Formats for HTML Presentation</p>
+														<img src="img/box-model.png" class="box-model-img" alt="" />
+													</div>
+												</div>
+											</div>
+											<hr>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Floats</h2>
+                            <p>Floats determin the position of content</p>
+														<pre class="code-block-width">
+                              <div>
+                                img {
+                                float: right;
+                                margin: 0 0 10px 10px;
+                                }
+                              </div>
 
-                        <!-- INLINE BLOCK ELEMENTS TO BE EDITED -->
-                        <div class="col-md-6">
-                       <div class="show-code">
-                              <h2>Block Elements</h2>
-                              <p>These are the most common Block Elements</p>
-                              <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                              <br>
-                              <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                              <br>
-                              <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                              <br>
-                              <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                              <br>
-                              <code>&lt;li&gt;List Item&lt;/li&gt;</code>
+														</pre>
+													</div>
+													<div class="show-preview">
+                            <h2>Floats</h2>
+                            <p>Floats determin the position of content</p>
+														<pre class="code-block-width">
+                              <div>
+                                img {
+                                float: right;
+                                margin: 0 0 10px 10px;
+                                }
+                              </div>
 
-                            </div>
-                            <div class="show-preview">
-                              <h2>Block Elements</h2>
-                              <p>These are the most common Block Elements</p>
-                              <h1>Heading</h1>
-                              <br>
-                              <p>Paragraph</p>
-                              <br>
-                              <ul>
-                                <li>Unordered List</li>
-                              </ul>
-                              <ol>
-                                <li>Ordered List</li>
-                              </ol>
-                            </div>
-                        </div>
-
-                        <!-- DIVS AND SPANS -->
-
-                      </div>
-                      <hr>
-
-                      <div class="row">
-
-                        <div class="col-md-6">
-                          <div class="show-code">
-                            <h2>Block Elements</h2>
-                            <p>These are the most common Block Elements</p>
-                            <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                            <br>
-                            <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                            <br>
-                            <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                            <br>
-                            <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                            <br>
-                            <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                          </div>
-                          <div class="show-preview">
-                            <h2>Block Elements</h2>
-                            <p>These are the most common Block Elements</p>
-                            <h1>Heading</h1>
-                            <br>
-                            <p>Paragraph</p>
-                            <br>
-                            <ul>
-                              <li>Unordered List</li>
-                            </ul>
-                            <ol>
-                              <li>Ordered List</li>
-                            </ol>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="show-code">
-                            <h2>Block Elements</h2>
-                            <p>These are the most common Block Elements</p>
-                            <code>&lt;h1&gt;Header&lt;/h1&gt;</code>
-                            <br>
-                            <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
-                            <br>
-                            <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
-                            <br>
-                            <code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code>
-                            <br>
-                            <code>&lt;li&gt;List Item&lt;/li&gt;</code>
-
-                          </div>
-                          <div class="show-preview">
-                            <h2>Block Elements</h2>
-                            <p>These are the most common Block Elements</p>
-                            <h1>Heading</h1>
-                            <br>
-                            <p>Paragraph</p>
-                            <br>
-                            <ul>
-                              <li>Unordered List</li>
-                            </ul>
-                            <ol>
-                              <li>Ordered List</li>
-                            </ol>
-                          </div>
-                        </div>
-
-                      </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-default pull-left">Preview</button>
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
-
-
-          </div>
-      </div>
-      <script type="text/javascript">
-      $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-      });
-      </script>
-  </body>
+														</pre>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<!-- <div class="show-code">
+														<h2></h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div> -->
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button class="btn btn-default pull-left" type="button">Preview</button> <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- Javascript -->
+			<div class="panel panel-default">
+				<div class="panel-heading" id="headingThree" role="tab">
+					<h4 class="panel-title"><a aria-controls="collapseThree" aria-expanded="false" data-parent="#accordion" data-toggle="collapse" href="#collapseThree" role="button">Javascript</a></h4>
+				</div>
+				<div aria-labelledby="headingThree" class="panel-collapse collapse" id="collapseThree" role="tabpanel">
+					<div class="panel-body">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<br>
+						<button class="btn btn-primary btn-lg" data-target="#myModalJS" data-toggle="modal" type="button">Launch demo modal</button> <!-- Modal for Javascript-->
+						<div aria-labelledby="myModalLabelJS" class="modal fade" id="myModalJS" role="dialog" tabindex="-1">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabelJS">HTML: Elements</h4>
+									</div>
+									<div class="modal-body" id="JS-modal">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div><!-- INLINE BLOCK ELEMENTS TO BE EDITED -->
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div><!-- DIVS AND SPANS -->
+											</div>
+											<hr>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button class="btn btn-default pull-left" type="button">Preview</button> <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- Bootstrap -->
+			<div class="panel panel-default">
+				<div class="panel-heading" id="headingFour" role="tab">
+					<h4 class="panel-title"><a aria-controls="collapseFour" aria-expanded="false" data-parent="#accordion" data-toggle="collapse" href="#collapseFour" role="button">Bootstrap</a></h4>
+				</div>
+				<div aria-labelledby="headingFour" class="panel-collapse collapse" id="collapseFour" role="tabpanel">
+					<div class="panel-body">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<br>
+						<button class="btn btn-primary btn-lg" data-target="#myModalBoostrap" data-toggle="modal" type="button">Launch demo modal</button> <!-- Modal for Boostrap-->
+						<div aria-labelledby="myModalLabelBoostrap" class="modal fade" id="myModalBoostrap" role="dialog" tabindex="-1">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabelBoostrap">HTML: Elements</h4>
+									</div>
+									<div class="modal-body" id="Boostrap-modal">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div><!-- INLINE BLOCK ELEMENTS TO BE EDITED -->
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div><!-- DIVS AND SPANS -->
+											</div>
+											<hr>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button class="btn btn-default pull-left" type="button">Preview</button> <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--Jqury  -->
+			<div class="panel panel-default">
+				<div class="panel-heading" id="headingFive" role="tab">
+					<h4 class="panel-title"><a aria-controls="collapseFive" aria-expanded="false" data-parent="#accordion" data-toggle="collapse" href="#collapseFive" role="button">Jquery</a></h4>
+				</div>
+				<div aria-labelledby="headingFive" class="panel-collapse collapse" id="collapseFive" role="tabpanel">
+					<div class="panel-body">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<br>
+						<button class="btn btn-primary btn-lg" data-target="#myModalJQ" data-toggle="modal" type="button">Launch demo modal</button> <!-- Modal for JQ-->
+						<div aria-labelledby="myModalLabelJQ" class="modal fade" id="myModalJQ" role="dialog" tabindex="-1">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabelJQ">HTML: Elements</h4>
+									</div>
+									<div class="modal-body" id="JQ-modal">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div><!-- INLINE BLOCK ELEMENTS TO BE EDITED -->
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div><!-- DIVS AND SPANS -->
+											</div>
+											<hr>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="show-code">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p><code>&lt;h1&gt;Header&lt;/h1&gt;</code><br>
+														<code>&lt;p&gt;Paragraph&lt;/p&gt;</code><br>
+														<code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code><br>
+														<code>&lt;ol&gt;Ordered List&lt;/ol&gt;</code><br>
+														<code>&lt;li&gt;List Item&lt;/li&gt;</code>
+													</div>
+													<div class="show-preview">
+														<h2>Block Elements</h2>
+														<p>These are the most common Block Elements</p>
+														<h1>Heading</h1><br>
+														<p>Paragraph</p><br>
+														<ul>
+															<li>Unordered List</li>
+														</ul>
+														<ol>
+															<li>Ordered List</li>
+														</ol>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button class="btn btn-default pull-left" type="button">Preview</button> <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
 </html>

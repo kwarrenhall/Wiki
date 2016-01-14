@@ -35,3 +35,8 @@ $(".btn").click(function(){
 // Branching
 // Arrays
 // Looping
+
+//
+// <span>
+// <a>
+// <img>

@@ -28,3 +28,28 @@
 .show-preview{
   display: none;
 }
+
+#inline-span-html{
+  color: red;
+}
+
+
+#inline-image-html{
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.box-model-img{
+  min-width: 275px;
+  min-height: 200px;
+  max-width: 200px;
+  max-height: 275px;
+}
+
+.code-block-width{
+  width: 50%;
+  height: 200px;
+  color: red;;
+}
