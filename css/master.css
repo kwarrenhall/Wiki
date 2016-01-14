@@ -2,7 +2,29 @@
   width: 80%;
 }
 
+#html-modal{
+  height: 700px;
+}
 
+#css-modal{
+  height: 700px;
+}
+
+#JS-modal{
+  height: 700px;
+}
+
+#Bootstrap-modal{
+  height: 700px;
+}
+
+#JQ-modal{
+  height: 700px;
+}
 .modal-code-block{
   display: inline-block;
+}
+
+.show-preview{
+  display: none;
 }
