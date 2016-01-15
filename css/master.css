@@ -49,7 +49,12 @@
 }
 
 .code-block-width{
-  width: 50%;
+  width: 50.1%;
   height: 200px;
-  color: red;;
+  color: red;
+  text-align: left;
+}
+
+.code-block-width pre{
+  text-align: left;
 }
